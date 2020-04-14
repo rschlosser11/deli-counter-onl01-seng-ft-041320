@@ -3,9 +3,9 @@ def line(people_in_line)
     puts "The line is currently empty."
   else 
     message = "The line is currently:"
-    people_in_line.each do |customer|
-      line_number = 1
-      puts"#{message} #{line_number}. #{customer} "
+    index = 0
+    while index < people_in_line.length
+      message = "#{message} #{index + 1}. #{customer}"
     end
   end
 end 
