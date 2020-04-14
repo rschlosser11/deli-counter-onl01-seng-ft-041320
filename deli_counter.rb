@@ -6,4 +6,6 @@ def line(people_in_line)
     people_in_line.each do |customer|
       line_number = 1
       "#{message} #{line_number}. #{customer} "
+    end
+  end
 end 
