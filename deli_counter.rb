@@ -6,6 +6,7 @@ def line(people_in_line)
     index = 0
     while index < people_in_line.length
       message = "#{message} #{index + 1}. #{people_in_line[index]}"
+      index += 1
     end
   end
   message
