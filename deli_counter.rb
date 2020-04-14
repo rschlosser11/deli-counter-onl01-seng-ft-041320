@@ -9,5 +9,5 @@ def line(people_in_line)
       index += 1
     end
   end
-  message
+  puts message
 end 
