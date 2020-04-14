@@ -8,4 +8,5 @@ def line(people_in_line)
       message = "#{message} #{index + 1}. #{customer}"
     end
   end
+  message
 end 
