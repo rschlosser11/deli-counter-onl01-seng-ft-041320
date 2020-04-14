@@ -14,4 +14,5 @@ end
 
 def take_a_number(katz_deli, new_customer)
   puts "Welcome, #{new_customer}. You are number #{katz_deli.length + 1} in line."
+  katz_deli << new_customer
 end
