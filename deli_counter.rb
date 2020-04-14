@@ -5,7 +5,7 @@ def line(people_in_line)
     message = "The line is currently:"
     index = 0
     while index < people_in_line.length
-      message = "#{message} #{index + 1}. #{customer}"
+      message = "#{message} #{index + 1}. #{people_in_line[index]}"
     end
   end
   message
