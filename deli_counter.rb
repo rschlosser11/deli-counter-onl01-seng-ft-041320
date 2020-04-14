@@ -11,3 +11,7 @@ def line(people_in_line)
     puts message
   end
 end 
+
+def take_a_number(katz_deli, new_customer)
+  puts 
+end
